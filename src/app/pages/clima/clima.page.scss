@@ -1,0 +1,113 @@
+.tituloEncabezado {
+  margin-left: 28%;
+  //Elegir fuentes más estéticas.
+}
+
+.tituloPieDePagina {
+  text-align: center;
+}
+
+ion-searchbar {
+  --border-radius: 250; //No funciona, no redondea los bordes de la barra de búsqueda.
+}
+
+.mostrarLista-style {
+  display: none;
+}
+
+.desviarDerecha {
+  margin-left: 5%;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.opaco {
+  opacity: 70%; //Mientras más cercano a 0, más transparente.
+}
+
+.botonGPS {
+  margin-left: 5%;
+  --color: #80d9ff;
+  --border-width: 1px;
+}
+
+.masTamanio {
+  font-size: 130%;
+}
+
+.desviarIzquierda {
+  margin-right: 500%;
+}
+
+.esteticaCifraClima {
+  font-size: 240%;
+  margin-left: 0%;
+  margin-top: 300%;
+  //font-weight: bold;
+}
+
+/*.cuadroClima {
+  border: 1px solid grey;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 1.0);
+}*/
+
+.cuadroClimaIcono {
+  //border: 1px solid grey;
+  width: 80px;
+  margin-right: 15%;
+  //border-radius: 10px;
+}
+
+.cuadroClimaTemp {
+  //border: 1px solid grey;
+  width: 130px;
+  margin-left: 69px;
+  margin-top: -85px;
+}
+
+.cuadroClimaExtras {
+  //border: 1px solid grey;
+  width: 160px;
+  height: 75px;
+  margin-left: 175px;
+  margin-top: -78px;
+}
+
+.imagenClima {
+  margin-left: -5%;
+  margin-top: -5%;
+}
+
+.posicionBotones {
+  margin-left: 20%;
+  margin-top: -8%;
+}
+
+.posicionInfoExtra {
+  margin-left: 49%;
+  margin-top: -29%;
+}
+
+ion-range {
+  --bar-background: #c3c8cc;
+  --bar-background-active: #525251;
+  --knob-background: #0080ff;
+  --knob-border-radius: 0;
+}
+
+.botonAhora {
+  --color: #818283;
+  --border-width: 0px;
+  margin-left: -08px;
+}
+
+.botonDia {
+  width: 97%;
+  height: 205px;
+  margin-left: 5px;
+  --color: #706a6a;
+  --border-width: 2px;
+  opacity: 70%;
+}
